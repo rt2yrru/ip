@@ -1,0 +1,18 @@
+language: python
+
+python:
+  - "3.7"
+matrix:
+  include:
+    - python: 3.7
+      dist: xenial
+      sudo: true
+
+install:
+true
+# use this to skip the install step or add any commands required to install your project dependencies
+
+script:
+- python ./python/ip.py
+
+ # or any other command you'd like to run your tests with
