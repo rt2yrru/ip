@@ -9,7 +9,7 @@ matrix:
       sudo: true
 
 install:
-true
+-true
 # use this to skip the install step or add any commands required to install your project dependencies
 
 script:
